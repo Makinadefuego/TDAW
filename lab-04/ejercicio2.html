@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>i
+        <form action="" method="post">
+            <fieldset>
+                <legend>Indique sus preferencias por favor </legend>
+                Elija una fecha: <input type="date" name="fecha" id="fecha">
+                Elija un archivo: <input type="file" name="archivo"
+                    id="archivo">
+                <br>
+                <input type="radio" name="procesador" value="procesadoramd">AMD
+                <input type="radio" name="procesador"
+                    value="procesadorintel_i5">Intel i5
+                <input type="radio" name="procesador"
+                    value="procesadorintel_i7">Intel i7
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Indique sus preferencias</legend>
+                <input type="radio" name="asignatura"
+                    value="asignaturamatematicas"> Matemáticas
+                <input type="radio" name="asignatura"
+                    value="asignaturahistoria"> Historia
+                <input type="radio" name="asignatura"
+                    value="asignaturageografia"> Geogarfía
+                <input type="radio" name="asignatura" value="asignaturalengua">
+                Lengua
+                <br>
+                Nombre: <input type="text" name="nombre" id="nombre"
+                    maxlength="50" required>
+                Apellidos: <input type="text" name="apellidos" id="apellidos"
+                    maxlength="50" required>
+                Diercción: <input type="text" name="direccion" id="direccion"
+                    maxlength="50" required>
+                <br/>
+
+                Elija un color: <input type="color" name="color" id="color">
+                <br>
+                <textarea name="" id="" cols="59" rows="6">Utilice este recuadro para escribir</textarea>
+                <br>
+                
+                Elija una fecha: <input type="date" name="fecha" id="fecha"><br>
+                <select name="idioma" id="">
+                    <option value="ingles">Ingles</option>
+                    <option value="aleman">Alemán</option>
+                    <option value="frances">Francés</option>
+                </select> <br>
+                Elija una hora: <input type="time" name="hora" id="hora"> <br>
+                <input type="checkbox" name="sexo" id="sexoH" value="H">Hombre
+                <input type="checkbox" name="sexo" id="sexoM" value="M">Mujer
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </body>
+</html>

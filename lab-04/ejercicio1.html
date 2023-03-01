@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formilario de registro - mi Web</title>
+    </head>
+    <body>
+        <h1>Formulario de registro</h1>
+        <form action="" method="get">
+            <p>Nombre: <input type="text" name="nombre" id="nombre"
+                    maxlength="50" required></p>
+            <p>Apellidos: <input type="text" name="apellidos" id="apellidos"
+                    maxlength="50" required></p>
+
+            <p>Sexo: <input type="radio" name="sexo" id="sexo" value="H">Hombre
+                <input type="radio" name="sexo" id="sexo" value="M">Mujer
+                <input type="radio" name="sexo" id="sexo" value="T">Transgénero
+                <input type="radio" name="sexo" id="sexo" value="NB">No binario</p>
+            <p>
+                Correo: <input type="email" name="correo" id="correo"
+                    maxlength="50">
+            </p>
+            <p>
+                <input type="checkbox" name="info" id="info" checked> Deseo recibir información sobre novedades y ofertas
+            </p>
+            <p>
+                <input type="checkbox" name="condiciones" id="condiciones"> Declaro haber leído y acepto las condiciones del programa
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </body>
+</html>
