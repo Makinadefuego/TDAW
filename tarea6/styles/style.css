@@ -1,0 +1,81 @@
+header{
+    background-color: orange;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav{
+    height: 75px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+a{
+
+    margin: 0 10px;
+}
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido{
+    margin: 75px 100px;
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+#bandera{
+    height: 200px;
+   
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+#lima{
+    height: 400px;
+    background-color: lime;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+}
+img{
+    width: 50vw;  
+    height: 400px;
+}
+#lima div{
+  width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#suscripcion{
+    background-color: gray;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
