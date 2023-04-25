@@ -1,0 +1,34 @@
+@font-face { font-family: "Poppins"; src: url(../fonts/Poppins/Poppins-Regular.ttf); } 
+@font-face { font-family: "PoppinsBold"; src: url(../fonts/Poppins/Poppins-Bold.ttf); } 
+*
+{
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  margin: 0;
+  font-family: "Poppins";
+}
+body {
+  background-color: #F9EAE1;
+}
+@keyframes zoom {
+  from {transform: scale(0.1)} 
+  to {transform: scale(1)}
+}
+.Creditos{
+  font-size: 15px;
+  text-align: right;
+  color: #F9EAE1;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.CreditosRojo{
+  font-size: 15px;
+  text-align: right;
+ color: #80004a;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}

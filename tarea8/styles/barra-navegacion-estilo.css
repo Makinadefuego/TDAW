@@ -1,0 +1,183 @@
+.BarraNavegacion ul {
+  list-style-type: none;
+  background-color: rgb(128, 0, 74);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: s;
+  animation: 0.5s;
+  width: 100vw;
+}
+.MenuEscondido {
+  display: none;
+}
+.BarraNavegacion li > a,
+.BotonAsesorias,
+.BotonProyectos,
+.BotonSesion,
+.BotonEscondido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9eae1;
+  height: 55px;
+  width: 100px;
+  text-decoration: none;
+  background-color: #80004a;
+  animation: 0.5s;
+}
+
+.BarraNavegacion li a:hover,
+.MenuAsesorias:hover .BotonAsesorias,
+.MenuProyectos:hover .BotonProyectos,
+.MenuSesion:hover .BotonSesion,
+.MenuEscondido:hover .BotonEscondido {
+  background-color: #590134;
+}
+
+.BarraNavegacion li .MenuAsesorias,
+.BarraNavegacion li .MenuProyectos,
+.BarraNavegacion li .MenuSesion,
+.BarraNavegacion li .MenuEscondido {
+  display: flex;
+  animation: 0.5s;
+  flex-direction: column;
+}
+
+.ContenidoAsesorias,
+.ContenidoProyectos,
+.ContenidoSesion,
+.ContenidoEscondido {
+  display: none;
+  position: absolute;
+  background-color: #80004a;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.354);
+  z-index: 2;
+  animation: 0.5s;
+}
+.ContenidoAsesorias a,
+.ContenidoProyectos a,
+.ContenidoSesion a,
+.ContenidoEscondido a {
+  color: #f9eae1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  animation: 0.5s;
+  text-align: left;
+  animation: 0.5s;
+}
+
+.ContenidoAsesorias a:hover,
+.ContenidoProyectos a:hover,
+.ContenidoSesion a:hover,
+.ContenidoEscondido a:hover {
+  background-color: #590134;
+}
+
+.MenuAsesorias:hover .ContenidoAsesorias,
+.MenuProyectos:hover .ContenidoProyectos,
+.MenuSesion:hover .ContenidoSesion,
+.MenuEscondido:hover .ContenidoEscondido {
+  display: block;
+  animation: 0.5s;
+}
+.MenuSesion:hover .ContenidoSesion {
+  right: 0;
+  top: 55px;
+  animation: 0.5s;
+}
+
+.BarraBusqueda {
+  position: absolute;
+  left: 37vw;
+  width: max(40vw, 350px);
+  animation: 0.5s;
+}
+.Entrada {
+  width: 77%;
+  height: 40px;
+  padding: 10px;
+  background-color: #f9eae1;
+  color: #80004a;
+  border: 3px solid #f9eae1;
+  border-radius: 10px;
+  animation: 0.5s;
+}
+.MenuSesion {
+  position: absolute;
+  right: 0;
+  top: 0;
+  animation: 0.5s;
+}
+.BotonBusqueda {
+  border: 3px solid #f9eae1;
+  color: #f9eae1;
+  background-color: #80004a;
+  border-radius: 10px;
+  width: 20%;
+  height: 40px;
+  cursor: pointer;
+  animation: 0.5s;
+}
+.LogoIPN {
+  margin: 5px;
+  width: 55px;
+  cursor: pointer;
+}
+#Escondido {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .MenuAsesorias,
+  .MenuProyectos,
+  .MenuEjercicios {
+    display: none;
+  }
+  .MenuEscondido {
+    font-size: 45px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0;
+  }
+  .ContenidoEscondido {
+    font-size: 16px;
+    position: absolute;
+    right: 0px;
+    top: 55px;
+  }
+  .BarraBusqueda {
+    left: 25vw;
+  }
+  .MenuSesion {
+    right: 100px;
+  }
+  .MenuSesion:hover .ContenidoSesion {
+    right: 0;
+    top: 55px;
+    animation: 0.5s;
+  }
+}
+@media (max-width: 750px) {
+  .MenuSesion {
+    display: none;
+  }
+  #Escondido {
+    display: flex;
+  }
+  .BarraBusqueda {
+    left: 100px;
+  }
+}
+@media (max-width: 550px) {
+  .BarraBusqueda {
+    left: 65px;
+    width: 230px;
+    font-size: 15px;
+  }
+  .BotonBusqueda {
+    font-size: 10px;
+  }
+}
